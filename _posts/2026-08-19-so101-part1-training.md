@@ -30,11 +30,11 @@ the transferable part is *how each piece was found*.
 
 ## 1. Pick a small model, not a large VLA — iteration velocity is the whole game
 
-- Training runs are ~~15–40 minutes on one GPU (RTX-6000-class; a 3090
+- Training runs are ~15–40 minutes on one GPU (RTX-6000-class; a 3090
 works). The tally over ~10 days: **50+ training runs** (42 distinct
 named experiments in the logs, plus variant families — k-shift ladders,
 data-scaling probes), peaking at **eight or nine trainings in a single
-day**; on the eval side, 10 structured grid sessions (~~175 scored
+day**; on the eval side, 10 structured grid sessions (~175 scored
 placements), two DAgger sessions (~90 policy rollouts with human
 takeover), and several hundred informal rollouts during debugging. The
 full collect→train→eval loop turned over roughly 20 times, across 7
