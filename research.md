@@ -18,6 +18,7 @@ permalink: /research/
   Competition: Winner (1st place).** Curated a vision-language reasoning
   dataset achieving top performance across benchmarks; presented at the
   NeurIPS competition workshop.
+  [Press coverage](https://www.ics.hawaii.edu/2025/12/grad-students-win-neurips-vision-language-ai-challenge/)
 - **Beyond Audio and Pose: A General-Purpose Framework for Video
   Synchronization** — Yosub Shin, Igor Molybog. *arXiv preprint, 2025.*
   [arXiv:2506.15937](https://arxiv.org/abs/2506.15937)
