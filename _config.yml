@@ -7,3 +7,6 @@ permalink: /:year/:month/:title/
 show_excerpts: true
 header_pages:
   - about.md
+
+github_username: YosubShin
+linkedin_username: yosubshin
