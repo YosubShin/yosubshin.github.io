@@ -1,0 +1,9 @@
+title: Yosub Shin
+description: Field notes on robot learning, cheap hardware, and measuring things honestly
+url: "https://yosubshin.github.io"
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:title/
+show_excerpts: true
+header_pages:
+  - about.md
