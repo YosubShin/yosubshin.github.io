@@ -13,6 +13,10 @@ field notes. Before the PhD I was a software engineer at Samsara
 Experiments, tools, and full logs behind the posts live at
 [github.com/YosubShin/lerobot_alohamini](https://github.com/YosubShin/lerobot_alohamini).
 
+Publications, competition results, and selected projects are on the
+[research page](/research/), along with a
+[resume (PDF)](/assets/resume_yosub_shin.pdf).
+
 I'm currently open to research and engineering roles in robot learning —
 the fastest way to reach me is
 [LinkedIn](https://www.linkedin.com/in/yosubshin).

@@ -6,6 +6,7 @@ markdown: kramdown
 permalink: /:year/:month/:title/
 show_excerpts: true
 header_pages:
+  - research.md
   - about.md
 
 github_username: YosubShin
