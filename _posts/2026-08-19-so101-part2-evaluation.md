@@ -160,17 +160,18 @@ know whether you did.*
   scenes = 280 scored trials** (23 scenes fully complete across all six
   checkpoints; analysis equalizes to 46 trials per model). The six
   checkpoints, and why each earned its slot:
-  | checkpoint | what it isolates |
-  |---|---|
-  | GN_s1000 | the champion recipe (from-scratch + GroupNorm) |
-  | GN_s2000 | same recipe, different seed — the model-seed noise floor |
-  | GN_raw | the same training run as GN_s1000, raw instead of EMA weights — a pure EMA ablation |
-  | BN_scratch | from-scratch with BatchNorm — isolates normalization |
-  | PT_slowLR | ImageNet-pretrained, backbone at 10× lower LR — the DP paper's prescription |
-  | PT_fullLR | ImageNet-pretrained, naive full-LR fine-tune — intended as the "should lose" control |
 
-  Two attempts per model per scene are what make the same-state flip
-  rate (section 4) measurable at all.
+| checkpoint | what it isolates |
+|---|---|
+| GN_s1000 | the champion recipe (from-scratch + GroupNorm) |
+| GN_s2000 | same recipe, different seed — the model-seed noise floor |
+| GN_raw | the same training run as GN_s1000, raw instead of EMA weights — a pure EMA ablation |
+| BN_scratch | from-scratch with BatchNorm — isolates normalization |
+| PT_slowLR | ImageNet-pretrained, backbone at 10× lower LR — the DP paper's prescription |
+| PT_fullLR | ImageNet-pretrained, naive full-LR fine-tune — intended as the "should lose" control |
+
+Two attempts per model per scene are what make the same-state flip
+rate (section 4) measurable at all.
 <video controls muted playsinline style="max-width:100%">
   <source src="/assets/so101/grasp-trial-example.mp4" type="video/mp4">
 </video>
