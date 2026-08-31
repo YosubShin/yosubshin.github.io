@@ -4,11 +4,17 @@ title: "A UMI gripper that matches the robot it collects for"
 date: 2026-08-31
 ---
 
-*For people collecting manipulation data with UMI-style handheld rigs who
-care whether the wrist camera sees the same thing at collection time and
-at deployment time. This is a hardware post, not a results post: the
-design is built and the tracker is characterised, but no policy has been
-trained on data from it yet. Files:
+*A UMI variant for the [I2RT YAM](https://i2rt.com/products/yam-6-dof-arm)
+arm. It matches the handheld gripper's embodiment to YAM's stock linear
+gripper — jaw geometry, camera mount, tips, and the rail-and-pinion
+mechanism that synchronizes both jaws — to minimize the distribution
+shift between data collection and deployment. No servo encoder, no
+brittle lever linkage. Inspired by
+[HandUMI](https://github.com/murobotics-ai/handumi-hw), which took the
+hand-worn approach from [Generalist](https://generalistai.com/).*
+
+*Hardware post, not a results post: it is built and the tracker is
+measured, but no policy has been trained on its data yet. Files:
 [github.com/YosubShin/yam-umi](https://github.com/YosubShin/yam-umi).*
 
 ---
